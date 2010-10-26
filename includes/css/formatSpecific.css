@@ -1,0 +1,213 @@
+/* PALLETTE 
+ orange: background-color: #FFEDA4;
+
+*/
+
+
+/* -->> UNIVERSAL <<-- */
+
+h2 {
+	font-size:0.9em;
+}
+
+
+/* -->> LIBRARY <<-- */
+
+
+/* -->> TEMPLATE <<-- */
+
+#overlay {
+	background-color:#191919;
+	position:fixed;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	z-index:33;
+}
+
+#addSolvent{
+	background-color: #FBFBFB;
+	border:1px solid #d5d5d5;
+	border-left:none;
+	height:600px;
+	font-family: Helvetica, sans-serif;
+	left:420px; 
+	margin:0;
+	position:fixed;
+	text-align:left;
+	top:-600px;
+	width:560px;
+	z-index:1000;	
+}
+	
+	#addSolvent h2 {
+		font-size:1.2em;
+		margin:10px 25px;
+	
+	}
+	
+	
+	#addSolvent form {
+		margin:0px 0px 0px 20px;
+	
+	}
+
+	#addSolvent span.close, #addSolvent span.open{
+		background-color: #EBEBEB;
+		float:left;
+		font-weight:bold;
+		height:15px;
+		margin:20px 0px 0px 220px;
+		padding:10px;
+		position:absolute;
+	}
+
+#slidePanel{
+	float:right;
+	/*height: 200px; */
+	position:absolute;
+	width: 100%;
+	z-index:44;
+}
+	#slidePanel form{
+		background-color: #FFEDA4;
+		clear:both;
+		float:right;
+		margin-right:100px;
+		padding:20px;
+		width:500px;
+	}
+		#slidePanel form a{
+			float:right;
+			font-size:1.5em;
+	}
+		#slidePanel label{
+			display:block;
+	}
+	
+
+#problemWrapper{
+	padding:0px 0px 0px 5px;
+	
+}
+	#problems {
+		margin-left:10px;
+	
+	} 
+
+	#problems > dl {
+		clear:both;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		border-bottom-color: #EBEBEB;
+		margin:5px 10px 15px 10px;
+		overflow:hidden;
+		padding-bottom:10px;
+
+	}
+	
+		#problems > dl.updating {
+			background-color:#FFF1C6;
+		}
+	
+		#problems dt {
+			background: url(../images/arrow_down.png) no-repeat 0 50%;
+			font-size:1.2em;
+			letter-spacing: 1px;
+			margin-bottom:10px;
+			padding-left: 30px; 
+		}
+				
+			#problems dt a{		
+			}
+				#problems dt a:hover {
+					/*color: #FFCC00;	 */			
+				}
+			
+		#problems dd {
+			/*background-color: #A9C0D6; */
+			/*background-color: #F0F0F0; */
+			font-size:1.1em;
+	    	line-height:1.4em;
+			/*margin-left:30px; */
+			margin-left:15px;
+			padding:2px 15px 10px 15px;
+			color: #434343;
+			
+		}
+	
+			#problems dd.resolution {
+				background-color: #EBEBEB;
+				padding:15px 15px 15px 15px;				
+			
+			}
+					#problems dd.resolution  p{
+						margin-bottom:10px;
+					}
+				
+					#problems dd.resolution a{
+					/*	font-weight:bold;*/
+						text-decoration:underline; 
+					}
+					
+			#problems span.resolutionMarkDown {
+				background-color:#FF9999;
+				display:none; 
+			}
+			
+			#problems dd.dtResolved {
+				font-size:0.8em;
+				font-weight:bold;
+				padding-bottom:10px;
+				
+			}
+			
+			#problems dd.categories {
+				/*float:left; */
+				/*background-color: #FFFFFF; */
+				background-image: none;
+				margin:0px;
+				margin-top:10px;
+				padding:0px;
+			}
+				
+				#problems dd ul li a {
+					color: #D6D6D6;									
+				}
+
+				#problems dd ul li a:hover {
+					color: #000000; 									
+				}
+				
+				
+				#problems dd dl  {
+					font-size:0.8em;
+				}
+				#problems dd dl dt {
+					background-color:#FFFFFF;
+					background-image: none;	
+					float:left;			
+				}
+			
+				#problems dd dl dd {
+					background-color:#FFFFFF;
+					float:left;
+					margin:0;
+					padding-right:0px;
+					/*padding:0 */
+			
+				}	
+				
+				#problems dd dl dd a {
+					background-color: #EBEBEB;
+					font-weight:bold;
+					padding:2px 10px;
+			
+				}	
+			
+			
+	
+	
+/* -->> INDIVIDUAL <<-- */
+
